@@ -66,6 +66,12 @@
             "icon": null
           },
           {
+            "name": "AudioSource",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "SampleClip",
             "scenes": [],
             "dependencyType": 1,
@@ -687,6 +693,12 @@
         "name": "Physics",
         "dependencies": [
           {
+            "name": "CharacterController",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Collider",
             "scenes": [
               "Assets/Scenes/Airballoon_Toma.unity"
@@ -706,6 +718,12 @@
             "name": "PhysicsManager",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "Rigidbody",
+            "scenes": [],
+            "dependencyType": 0,
             "icon": null
           },
           {

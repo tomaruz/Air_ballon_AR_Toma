@@ -693,6 +693,14 @@
         "name": "Physics",
         "dependencies": [
           {
+            "name": "BoxCollider",
+            "scenes": [
+              "Assets/Scenes/Airballoon_Toma.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "CharacterController",
             "scenes": [],
             "dependencyType": 0,
@@ -700,10 +708,8 @@
           },
           {
             "name": "Collider",
-            "scenes": [
-              "Assets/Scenes/Airballoon_Toma.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {

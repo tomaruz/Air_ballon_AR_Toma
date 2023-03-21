@@ -42520,6 +42520,7 @@ struct MoveBalloon_t86619C90DC51A872F98B3B25E690DEB78EEB70EF  : public MonoBehav
 {
 	float ___lengthOfFrame_5;
 	float ___timeSinceLastFrame_6;
+	float ___speed_7;
 };
 struct OculusTouchControllerProfile_t182BD58E91EF5EFE8FC3F3DCDECD67E87EB3BEC7  : public OpenXRInteractionFeature_t643728BC4EB54CC2852F8D9921027BEE62E7682E
 {

@@ -13385,6 +13385,7 @@ struct MoveBalloon_t86619C90DC51A872F98B3B25E690DEB78EEB70EF  : public MonoBehav
 {
 	float ___lengthOfFrame_5;
 	float ___timeSinceLastFrame_6;
+	float ___speed_7;
 };
 struct OculusTouchControllerProfile_t182BD58E91EF5EFE8FC3F3DCDECD67E87EB3BEC7  : public OpenXRInteractionFeature_t643728BC4EB54CC2852F8D9921027BEE62E7682E
 {
@@ -21687,9 +21688,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5308[6] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5309[6] = 
 {
 	static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_FeatheringWidth_5)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955_StaticFields, ___s_FeatheringUVs_6)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955_StaticFields, ___s_Vertices_7)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_PlaneMeshVisualizer_8)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_Plane_9)),static_cast<int32_t>(offsetof(ARFeatheredPlaneMeshVisualizer_t5B508CD2D37F908F4359D7DED031B3C357E34955, ___m_FeatheredPlaneMaterial_10)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5310[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5310[3] = 
 {
-	static_cast<int32_t>(offsetof(MoveBalloon_t86619C90DC51A872F98B3B25E690DEB78EEB70EF, ___lengthOfFrame_5)),static_cast<int32_t>(offsetof(MoveBalloon_t86619C90DC51A872F98B3B25E690DEB78EEB70EF, ___timeSinceLastFrame_6)),};
+	static_cast<int32_t>(offsetof(MoveBalloon_t86619C90DC51A872F98B3B25E690DEB78EEB70EF, ___lengthOfFrame_5)),static_cast<int32_t>(offsetof(MoveBalloon_t86619C90DC51A872F98B3B25E690DEB78EEB70EF, ___timeSinceLastFrame_6)),static_cast<int32_t>(offsetof(MoveBalloon_t86619C90DC51A872F98B3B25E690DEB78EEB70EF, ___speed_7)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5311[3] = 
 {
 	static_cast<int32_t>(offsetof(MonoScriptInfo_tB6E56480CE09067429D885894639F57C50C0D101, ___nameSpace_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptInfo_tB6E56480CE09067429D885894639F57C50C0D101, ___className_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptInfo_tB6E56480CE09067429D885894639F57C50C0D101, ___isPartial_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),};

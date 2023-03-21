@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class MoveBalloon : MonoBehaviour
 {
-    public float lengthOfFrame = 1f; // this is duration one image is shown before advancing to the next
+    public float lengthOfFrame = 3f; // this is duration one image is shown before advancing to the next
     public float timeSinceLastFrame; // this is used to count time since the frame last changed.
+    public float speed = 0.05f;
 
     // Start is called before the first frame update
     void Start()
@@ -22,8 +23,13 @@ public class MoveBalloon : MonoBehaviour
 
         if (timeSinceLastFrame >= lengthOfFrame) // when larger than the pre-set lengthOfFrame then..
         {
-            transform.position += (Vector3.up * 0.05f) * Time.deltaTime;
+            transform.position += (Vector3.up * speed) * Time.deltaTime;
         }
+    }
+
+    public void ReverseDirection()
+    {
+        speed = speed * -1f;
     }
 
 }

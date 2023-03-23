@@ -32,10 +32,14 @@ extern void MoveBalloon_Start_m2FD9F3680BAA1B493399915089E16A94212BD8B2 (void);
 extern void MoveBalloon_Update_m476966FDE8500C208E9B7157E5008B3F4676700B (void);
 extern void MoveBalloon_ReverseDirection_mAC835F7510D693FFFA9B85B7223F385C9E2857D3 (void);
 extern void MoveBalloon__ctor_m2DBC927F04A1F447291CDA6D7BF035C8D593595E (void);
+extern void PlayQuickSound_Awake_m06B6F6427CA3FF121B03F8D8EDD6FCDB140C5B6A (void);
+extern void PlayQuickSound_Play_m359E4AD1EE870401120EE0DE07A0F8C24E6B3113 (void);
+extern void PlayQuickSound_OnValidate_m88F89CD0BDEB0A3C1D0CA9A56D2DFF8F0AAD2848 (void);
+extern void PlayQuickSound__ctor_m872451CBF4DCD02304D427C55129AC7D8580E45C (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_IsEditorOnly_m59E10A16B0BDEA496377805E39C3D90B1E2C4815 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_Get_mDAD527916A4779DB4ACAFEADC3BA7372671FA647 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes__ctor_mE2C680837D47039E3F06032AA8C63FEDB7E783A5 (void);
-static Il2CppMethodPointer s_methodPointers[23] = 
+static Il2CppMethodPointer s_methodPointers[27] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -57,11 +61,15 @@ static Il2CppMethodPointer s_methodPointers[23] =
 	MoveBalloon_Update_m476966FDE8500C208E9B7157E5008B3F4676700B,
 	MoveBalloon_ReverseDirection_mAC835F7510D693FFFA9B85B7223F385C9E2857D3,
 	MoveBalloon__ctor_m2DBC927F04A1F447291CDA6D7BF035C8D593595E,
+	PlayQuickSound_Awake_m06B6F6427CA3FF121B03F8D8EDD6FCDB140C5B6A,
+	PlayQuickSound_Play_m359E4AD1EE870401120EE0DE07A0F8C24E6B3113,
+	PlayQuickSound_OnValidate_m88F89CD0BDEB0A3C1D0CA9A56D2DFF8F0AAD2848,
+	PlayQuickSound__ctor_m872451CBF4DCD02304D427C55129AC7D8580E45C,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_IsEditorOnly_m59E10A16B0BDEA496377805E39C3D90B1E2C4815,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_Get_mDAD527916A4779DB4ACAFEADC3BA7372671FA647,
 	UnitySourceGeneratedAssemblyMonoScriptTypes__ctor_mE2C680837D47039E3F06032AA8C63FEDB7E783A5,
 };
-static const int32_t s_InvokerIndices[23] = 
+static const int32_t s_InvokerIndices[27] = 
 {
 	6494,
 	5152,
@@ -83,6 +91,10 @@ static const int32_t s_InvokerIndices[23] =
 	6597,
 	6597,
 	6597,
+	6597,
+	6597,
+	6597,
+	6597,
 	10026,
 	10056,
 	6597,
@@ -91,7 +103,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	23,
+	27,
 	s_methodPointers,
 	0,
 	NULL,
